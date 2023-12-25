@@ -1,0 +1,14 @@
+@use "../abstracts";
+:root{
+    --text-color: #1A162E;
+    --icon-fill: brightness(0) saturate(100%) invert(9%) sepia(24%) saturate(1366%) hue-rotate(210deg) brightness(93%) contrast(98%);
+    --header-bg: #eee;
+    --top-act-group-bg-color: #fff;
+    --top-act-group-shadow: rgba(237, 237, 246, 0.20);
+    --top-act-group-separate: #EDEDF6;
+    --header-bg-mb:#FFFFFF;
+    --body-bg:#fff;
+    @include abstracts.reponsives(lg){  
+        --body-bg:#eee;
+    }
+}
